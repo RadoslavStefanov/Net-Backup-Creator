@@ -1,0 +1,2 @@
+\\foobar
+This file keep track of the lastly added new hosts for archiving
