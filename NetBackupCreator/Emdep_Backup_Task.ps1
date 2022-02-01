@@ -1,27 +1,3 @@
-﻿    ##################################### Backup Script ###############################################
-    ## Name: Backup_Script.ps1                               
-    ## Creator: Erwin Bierens                     
-    ## CreationDate: 10-02-2017                               
-    ## LastModified: 10-05-2021 -by R.Stefanov                               
-    ## Version: 2.1
-    ## Website: https://erwinbierens.com/powershell-backup-script
-    ## 
-    ## Description: Copies the Backupdir to the Destination folder
-    ## Deviations will be written to logfile
-    ## Only Change Variables in Variables Section  
-    ##
-    ## Thx to the followingg scripts i created this one, source information
-    ## http://www.krist-online.nl/index.php/scripts/14-robocopy-powershell-wekelijks-backup-schema
-    ## https://blog.sat.iit.edu/2011/11/backup-script-using-robocopy-and-powershell/
-    ## 
-    ##
-    ## Example: powershell -command "&amp; 'c:\temp\Backup_Script.ps1' "
-    ## 
-    ####################################################################################################
-     
-    ####################
-    ##Variables Section
-    ####################
 
 $fileText = Get-Content -Path C:\confidential\StationPaths.txt
 
